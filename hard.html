@@ -1,4 +1,168 @@
 <!DOCTYPE html>
-<html>
-    <h1>fourth</h1>
-    <html>
+<html lang="en">
+<head>
+   <style>
+    header {
+        text-align: center;   
+    }
+
+    header h2{
+        font-size: 20px;
+        color: darkgrey;
+    }
+
+    .Container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .para {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 5px 5px 5px
+    }
+
+
+    .but {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .but button {
+             background-color: seagreen;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: whitesmoke;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+
+    .but button:hover {
+        background-color: darkgreen;
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .pic {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .pic img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px 0 100px 0 ;
+        border: solid darkgrey;
+    }
+    
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(seagreen, whitesmoke);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+    }
+    .odd{
+        color: darkgrey;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    footer {
+        margin-top: 10%;
+        color: seagreen;
+    }
+   </style>
+    <title>hardware</title>
+</head>
+<body>
+    <header>
+        <h1>What components run a computer, and how do they work?</h1>
+        <h2>All about Cpu, Gpu, Motherboards, Ram and Storage</h2>
+    </header>
+    <div class="Container">
+        <h2>Cpu</h2>
+        <h2>Gpu</h2>
+        <h2>Motherboard</h2>
+        <h2>Ram</h2>
+        <h2>Storage</h2>
+    </div>
+    <div class="para">
+        <p class="odd">A central processing unit (CPU), also called a central processor,
+         main processor, or just processor, is the most important processor in a given 
+         computer. Its electronic circuitry executes instructions of a computer program,
+          such as arithmetic, logic, controlling, and input output operations.
+           This role contrasts with that of external components, such as main memory and 
+           circuitry, and specialized coprocessors such as graphics processing units (GPUs).
+           </p>
+
+        <p>
+            A graphics processing unit is a specialized electronic circuit initially designed
+             for digital image processing and to accelerate computer graphics, being present
+              either as a discrete video card or embedded on motherboards, mobile phones,
+               personal computers, workstations, and game consoles.
+       </p>
+
+       <p class="odd">
+        In a computer system, the motherboard is a main printed circuit. It is also called the main
+         circuit board or mainboard. It includes several components on a single platform. It allows
+          communication between the RAM, ROM, hard drive, and other computer hardware components.
+           The motherboard is also called the backbone of a computer. 
+   </p>
+
+   <p>
+    So now, we know that those sticks in your PC's motherboard are system RAM, and they
+     function as short-term memory, but what does that all mean in practice? Well, when
+      you carry out actions on your computer, like opening a text document, it requires
+       access to the data contained in that file. When you're not working on that document
+        or you click save, the latest copy of that file is saved to the hard drive in
+         long-term storage.
+</p>
+
+<p class="odd">
+    Data storage is the collective methods and technologies that capture and retain digital
+     information on electromagnetic, optical or silicon-based storage media. Storage is used
+      in offices, data centers, edge environments, remote locations and people's homes.
+       Storage is also an important component in mobile devices such as smartphones and
+        tablets. Consumers and businesses rely on storage to preserve information ranging
+         from personal photos to business-critical data.
+</p>
+
+</div>
+
+<div class="pic">
+    <img class="pic" src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/03/Intel-Rocker-Lake-2-e1615908186584-920x614.jpg" alt="Cpu">
+    <img class="pic" src="https://global.aorus.com/upload/Product/F_20201230135856TD1TZv.JPG" alt="Gpu">
+    <img class="pic" src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522043_sd.jpg" alt="Motherboard">
+    <img class="pic" src="https://specials-images.forbesimg.com/imageserve/6076d052713bbe913d535120/960x0.jpg" alt="Ram">
+    <img class="pic" src="https://images.idgesg.net/images/article/2019/03/crucial-p1-nvme-ssd-primary-100789984-large.3x2.jpg" alt="Storage">
+</div>
+
+
+
+<div class="but">
+    <button onclick="window.location.href='https://en.wikipedia.org/wiki/Central_processing_unit'">Learn More</button>
+    <button onclick="window.location.href='https://www.howtogeek.com/414201/how-to-check-what-graphics-card-gpu-is-in-your-pc/'">Learn More</button>
+    <button onclick="window.location.href='https://en.wikipedia.org/wiki/Motherboard'">Learn More</button>
+    <button onclick="window.location.href='https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do'">Learn More</button>
+    <button onclick="window.location.href='https://www.techradar.com/how-to/what-is-an-ssd'">Learn More</button>
+</div>
+
+<footer>
+    <p>© 2024 All rights reserved | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+</footer>
+
+
+ 
+</body>
+</html>
