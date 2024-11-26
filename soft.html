@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            font-size: 17px; 
+            line-height: 1.5;
+            color: #333; 
+            background: linear-gradient(to bottom, #f0f8ff, #e6e6fa); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0px;
+        }
+
+        h1, h2 {
+            color: #2c3e50; 
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 40px;
+            color: #2c3e50; 
+            margin-bottom: 20px;  
+        }
+
+        .sb {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .sr {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .out {
+            display: flex;
+            padding: 10px;
+            align-items: center; 
+            gap: 20px; 
+        }
+
+        .out img {
+            border-radius: 8px;  
+            border: 3px solid #2c3e50; 
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+
+        .out .op-container {
+            display: flex;
+            gap: 50px; 
+            justify-content: center; 
+            flex: 1; 
+        }
+
+        .bx {
+            border: solid 2px #2c3e50;
+            background-color: #34495e; 
+            border-radius: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 150px;
+            padding: 30px; 
+            color: whitesmoke; 
+            font-size: 1.1rem; 
+            max-width: 80%; 
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+
+        #Int {
+            text-align: center;
+        }
+
+        #m {
+            margin-left: 150px;
+        }
+
+        #alertButton {
+            margin-right: 150px;
+        }
+
+        #b {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        #ww {
+            font-size: 50px;
+        }
+
+        button {
+            margin: 40px;
+            padding: 30px;
+            background-color: #3498db; 
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: whitesmoke;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9; 
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .op {
+            color: whitesmoke;
+        }
+
+        #l {
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <header id="Int">
+        <h1 id="ww">What is Software?</h1>
+        <h2>How is it used?</h2>
+    </header>
+
+    <div class="sr">
+        <h1 id="m">Software</h1>
+        <button id="alertButton">Click Me</button>
+    </div>
+
+    <script>
+        const button = document.getElementById("alertButton");
+        button.addEventListener("click", function () {
+            alert("Software was made to use this alert!!");
+        });
+    </script>
+
+    <div class="sb">
+        <p>
+            Software refers to a set of instructions or programs that tell a computer how to perform specific tasks. Unlike hardware, which represents the physical components of a computer, software is intangible. It enables users to interact with computers, operate applications, and complete a wide variety of functions—from writing documents to browsing the internet. Essentially, software acts as the bridge between hardware and the user, enabling them to use and control the machine.
+        </p>
+
+        <p>
+            There are two main types of software: system software and application software. System software includes operating systems like Windows, macOS, or Linux, which manage the hardware and provide an environment for other software to run. Application software, on the other hand, is designed to perform specific tasks or functions for the user, such as word processors, web browsers, and games. Together, these types of software form the backbone of computing.
+        </p>
+
+        <p>
+            Software is developed through a process called programming or coding, where programmers write detailed instructions in programming languages such as Python, Java, or C++. These instructions are then compiled or interpreted by the computer to execute the desired tasks. Software development is a complex and iterative process that often involves testing, debugging, and improving the program to ensure it works efficiently and meets user needs.
+        </p>
+
+        <p>
+            Over the years, the role of software has expanded significantly. In addition to traditional applications like spreadsheets and email clients, modern software can control devices, power machines, and run large-scale systems. For example, software is essential in fields like healthcare, finance, and entertainment, where it helps analyze data, automate processes, and create interactive experiences. As technology evolves, so too does the sophistication and scope of software.
+        </p>
+
+        <p>
+            The impact of software is profound in today’s digital age. It drives the functionality of smartphones, computers, and cloud services, and plays a crucial role in industries such as artificial intelligence, virtual reality, and robotics. The continuous development of software is essential for technological advancement, and its versatility allows it to be adapted for nearly every aspect of human life, from personal entertainment to scientific research.
+        </p>
+    </div>
+
+    <div class="bx">
+        <h1 id="b">How has it changed?</h1>
+
+        <div class="out">
+            <img src="https://static.vecteezy.com/system/resources/previews/024/558/811/original/openai-chatgpt-logo-icon-free-png.png" alt="comp" width="250" height="250">
+            <div class="op-container">
+                <p class="op">
+                    Over the years, the role of software has expanded significantly. In addition to traditional applications like spreadsheets and email clients, modern software can control devices, power machines, and run large-scale systems. For example, software is essential in fields like healthcare, finance, and entertainment, where it helps analyze data, automate processes, and create interactive experiences. As technology evolves, so too does the sophistication and scope of software.
+                </p>
+
+                <p class="op">
+                    The impact of software is profound in today’s digital age. It drives the functionality of smartphones, computers, and cloud services, and plays a crucial role in industries such as artificial intelligence, virtual reality, and robotics. The continuous development of software is essential for technological advancement, and its versatility allows it to be adapted for nearly every aspect of human life, from personal entertainment to scientific research.
+                </p>
+            </div>
+        </div>
+    </div>
+<br>
+    <footer id="l">
+        <p>© 2024 All rights reserved | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+    </footer>
+
+</body>
+</html>

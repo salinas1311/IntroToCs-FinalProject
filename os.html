@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operating Systems</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .os {
+            border-right: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .os:last-child {
+            border-right: none;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .pic {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://christian-mugrauer.com/wp-content/uploads/2020/09/AdobeStock_341367111-scaled.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: lightseagreen;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: whitesmoke;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        button:hover {
+            background-color: seagreen;
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        button:active {
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>All about Operating Systems</h1>
+       <h2>Different types of OS</h2> 
+    </header>
+
+    <div class="container">
+        <div class="os">
+            <img class="pic" src="https://cdn.freebiesupply.com/logos/large/2x/microsoft-windows-logo-png-transparent.png" alt="Windows Logo">
+            <h1>Windows</h1>
+            <p>
+                This is a series of operating systems developed by Microsoft for personal computers, tablets, and servers.<br>
+                It provides a graphical user interface (GUI), multitasking capabilities, and supports various applications.<br>
+                Some well-known versions include Windows 7, Windows 10, and Windows 11.
+            </p><br>
+            <button onclick="window.location.href='https://www.windows.com'">Learn More</button>
+        </div>
+
+        <div class="os">
+            <img class="pic" src="https://cdn.pixabay.com/photo/2022/08/24/23/12/apple-7408883_960_720.png" alt="MacOS Logo">
+            <h1>MacOS</h1>
+            <p>
+                macOS is an operating system developed by Apple Inc. for its line of computers, including MacBooks, iMacs,<br>
+                and Mac Minis. It is the successor to Mac OS X and is built on a Unix-based foundation. macOS provides a<br>
+                graphical user interface (GUI) designed to be user-friendly, along with various features to enhance<br>
+                productivity, security, and integration with other Apple devices.
+            </p><br>
+            <button onclick="window.location.href='https://www.apple.com/macos'">Learn More</button>
+        </div>
+
+        <div class="os">
+            <img class="pic" src="https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo-1996-present.png" alt="Linux Logo">
+            <h1>Linux</h1>
+            <p>
+                Linux is a family of open-source, Unix-like operating systems that are based on the Linux kernel,<br>
+                the core part of the system responsible for managing hardware and system resources. Unlike proprietary<br>
+                operating systems like Windows or macOS, Linux is free and open-source, meaning anyone can view, modify,<br>
+                and distribute its source code.
+            </p><br>
+            <button onclick="window.location.href='https://www.linux.org'">Learn More</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 All rights reserved | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+    </footer>
+
+</body>
+</html>

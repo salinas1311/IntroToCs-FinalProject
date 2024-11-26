@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Architecture</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            background: linear-gradient(lightgrey, lightblue);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+
+        .Intro {
+            height: 33vh;
+            background-image: url('https://www.excelsior.edu/wp-content/uploads/2023/02/Career-Spotlight_Computer_Hardware_Engineer_Blog.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 5px;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            padding: 20px;
+            width: 30%;
+            border: 5px double blue;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        li:nth-child(odd) {
+            color: black;
+        }
+
+        li:nth-child(even) {
+            color: blue;
+        }
+
+        h1, p {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .comp {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        #osh, #sh, #hw {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .Clickys {
+            text-align: center;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: butan 5s infinite;
+            color: whitesmoke;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: darkblue;
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:active {
+            background-color: skyblue;
+            transform: scale(1.05);
+        }
+
+        @keyframes butan {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        .Follow {
+            color: blue;
+            font-style: oblique;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        #t {
+            font-size: 30px;
+        }
+
+        #t:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        #bb {
+            text-align: center;
+            text-shadow: 2px 2px 0px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header class="Intro">
+        <h1>What components make a computer work?</h1>
+        <h3>The basics to internal components and computer software</h3>
+    </header>
+
+    <main class="Info">
+        <ul>
+            <li id="f1">
+                <h1 id="osh">Operating Systems?</h1>
+                <p>
+                    Operating Systems are a type of system software that manage all computer resources.<br>
+                    They act as an interface between software and hardware.<br>
+                    The 3 most common Operating Systems are Windows, macOS, and Linux.<br>
+                    <img class="comp" src="https://www.pngall.com/wp-content/uploads/2/Windows-Logo.png" alt="Windows logo">
+                    <img class="comp" src="https://www.pngmart.com/files/10/Black-Apple-Logo-PNG-Transparent-Image.png" alt="macOS logo">
+                    <img class="comp" src="https://static.vecteezy.com/system/resources/previews/016/460/767/original/linux-os-logo-top-operating-system-signs-free-png.png" alt="Linux logo">
+                </p>
+            </li>
+            <li id="f2">
+                <h1 id="sh">Software?</h1>
+                <p>
+                    Software refers to instructions, data, or programs used to operate computers.<br>
+                    Examples include Spotify, ChatGPT, and WhatsApp.<br>
+                    <img class="comp" src="https://static.vecteezy.com/system/resources/previews/022/100/989/non_2x/spotify-logo-transparent-free-png.png" alt="Spotify logo">
+                    <img class="comp" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/openai-1523664-1290202.png" alt="ChatGPT logo">
+                    <img class="comp" src="https://static.vecteezy.com/system/resources/previews/012/162/809/original/whatsapp-logo-3d-render-free-png.png" alt="WhatsApp logo">
+                </p>
+            </li>
+            <li id="f3">
+                <h1 id="hw">Hardware?</h1>
+                <p>
+                    Hardware includes physical components like CPUs, motherboards, and GPUs.<br>
+                    <img class="comp" src="https://www.learncomputerscienceonline.com/wp-content/uploads/2019/05/Central-Processing-Unit.jpg" alt="CPU">
+                    <img class="comp" src="https://staticg.sportskeeda.com/editor/2022/09/b5e4b-16630682130108-1920.jpg" alt="Motherboard">
+                    <img class="comp" src="https://cdn.mos.cms.futurecdn.net/85aG3nJqDBrV53d5nNBBwh.jpg" alt="GPU">
+                </p>
+            </li>
+        </ul>
+
+        <h1 id="bb">Click To</h1>
+        <div class="Clickys">
+            <a href="os.html" class="btn"><strong>Learn more on<br>Operating Systems</strong></a>
+            <a href="soft.html" class="btn"><strong>Learn more on<br>Software</strong></a>
+            <a href="hard.html" class="btn"><strong>Learn more on<br>Hardware</strong></a>
+        </div>
+    </main>
+
+    <footer class="Follow">
+        <h1>Follow me on</h1>
+        <a id="t" href="https://x.com/">X</a>
+    </footer>
+
+    <footer>
+        <p>© 2024 All rights reserved | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+    </footer>
+
+</body>
+</html>
