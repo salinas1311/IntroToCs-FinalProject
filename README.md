@@ -1,0 +1,1 @@
+The first final project of my journey. I will be uploading all the Final projects of my computer science on my github. This will showcase my progess as a developer to future employers, and allow myslef to reflect on my progess.
